@@ -15,7 +15,7 @@ ffibuilder.set_source( "sparseqr._sparseqr",
 """,
     ## You may need to modify the following line,
     ## which is needed on Ubuntu and harmless on Mac OS.
-    include_dirs = [ '/opt/homebrew/include/suitespare' ],
+    include_dirs = [ '/opt/homebrew/include/suitesparse' ],
     libraries=['/opt/homebrew/lib'])
 
 ffibuilder.cdef("""
